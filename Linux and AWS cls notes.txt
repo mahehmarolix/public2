@@ -1,0 +1,714 @@
+-What is devops - Dev + Ops
+Devops is a set of practices that combines or Collaborate the software development and IT Operations.
+
+Software development  - Write the code, build the code, Test the code
+It Operations - Release, monitor, Operate
+
+Ex : Home , about us, pages - To write the code and to develop and then the testing
+Operations - Continuous integer, Operate and monitor
+
+DEvops - 2007 
+ 
+Benefits of devops : 
+
+Faster - Solve out the issues and deployment
+Scalability - 
+Stable operation environment - 
+
+Speed - Whenever we get the issues in any application to sort this the devops. 
+Because of the devops tools we can easily solve easily and speed up our application
+
+Before devops - If any application has any issues to sort out, we should write the entire code of the application. If we push the all code
+After code - We have created for payments one server, login one server, application one server, products one server in cloud Cloud services ( AWS, Azure & GCP)
+
+Any issues in payment  - WE will go into that server and we solve that issues.
+ Before - 1 server - all application s
+After devops - We created one server that will collapse. Remaining will occur smoothly, normally or without any issues.
+
+Security - previously we store our d drives, system, hard disk save that data. Pull that 
+
+All pushing our code, our servers to the cloud. Whenever we want to make changes or else whenever you want the application we will pull the cloud directly from the cloud. To pull out the cloud, create a firewall - we will not give access. ‘
+
+Collaboration  - if we got the management or else form the team we are accountability, and ownership.
+Responsibility, and make the work should be done by collaborating with the developers, - it operations
+It operations  - developers
+
+Reliability - quality of the work or application updates and infrastructure changes. We use for ci, cd, to test the each page of the application
+
+Rapid delivery - improve the product faster. 
+
+Cost saving - In AWS Server - we use we should have to pay - Benefits
+
+Automation - 
+
+History of devops - 
+
+Devops became famous - for fast delivery, collaborating the developers and its operations at a time. For systematic development and deployment of the applications. 
+
+It is originated in 2008
+
+
+
+7 steps in devops - 
+Plan - 
+Code - 
+Build - 
+Test - 
+Release - 
+Deploy -  
+Operate - 
+Monitor  - 
+
+Virtualization - 
+
+Conterization - Packaging of the software component and its environments(libraries, frameworks), dependencies  so they are called as conterization
+
+Configuration Management - Establishing and maintaining consistency of the process of the product’s performance, functional and physical attributes with its requirements. 
+
+
+Plan - how many pages are required
+Code - based on our application
+Build - Whether its work 
+Test - If any issues are there or not ( go back the code - where the issues and we have to sort out)
+Test - is fine
+Release - We will release the code
+Deploy - Server 
+Operate - operating the pages or software is working or not
+Monitor - 
+
+Destination of any place or journey with friends : 
+
+Plan - starting point and destination point
+Cost - Rooms, to spent & to manage
+Locations- How from from our starting point or else form hotel where we are staying
+Route map  - directions 
+accessiors/lagguages - things we have to wear or accessories we need in trip
+‘
+
+Devops basics and tools we use in devops - Fine or any doubts
+
+OS - Linux
+Cloud Services - AWS - 3 types - aws, azure & GCP 
+
+Tools - 
+Git - local 
+Github
+Jenkins
+MAven
+Docker
+Ansible
+
+Linux - 
+
+What is Linux - 
+It is an open source Operating system. Open source - Anywhere we can able to access the linux - If WE can able to add and remove the services. 
+
+Operating system - which manages the hardware, software resources based
+
+Linux was introduced - Linus Trovalds - In which year 1991
+
+Linux is the updated version of Unix.
+
+Difference b/w Linux and Unix - 
+Unix - 1969 Linux - 1991
+Systme type - Complete os Linux System tuyoe - Kernel
+Source - It is free           Unix - Cutomized
+Cost - Free		Unix - We have to pay the cost based on the requirements
+It is portable		Unix - It in Non - portable
+Secuirty- 
+
+Linux - Different pecies - 
+
+Kernel
+Boot loader
+Init System
+Daemons
+Graphical Server
+Desktop environment
+Applications
+
+Why use Linux - 
+It is freely accessible, Highly usable availability, Every can use it without issues. Because it is open source
+
+Core components of Linux : 
+
+Kernel : It is the core component of linux. It is responsible for the all major activities of the os. It hides the low level hardware details to the system or application. 
+
+System Utility - System utility : It is a responsible for individual tasks or specialized characters or tasks
+
+System Library - It is also called as special functions.  It utilizes the kernel features but it doesn’t require kernel modules.
+
+Basic features of Linux 👍
+
+Portable
+Open source
+Multi user (Multi tasking)
+Security
+Shell
+Hierarchical file system
+Multi programming 
+
+Architecture of Linux : 
+
+
+
+In Linux Everything is a command
+2 Types of Users in Linux - 
+Normal User - $ - 
+Root User - # - Without any issues we can able to access all the services and we done the all things using root user
+Root user is administrator of Linux
+
+Sometimes we have to use character (Single char) Single Word 
+
+Linux Commands Types -
+
+File commands
+Directory Commands
+File content Commands
+Utility Commands
+Admin Commands
+
+File commands - 
+
+Touch - To create the empty text file
+Ls - To view the all files and directories
+Cp - To copying the same data in another file (source file will be available)
+Mv - Move or Rename (Both are the same) (source will be not available)
+Rm - Removing the file
+
+In VI Editor - 3 modes -Insert - To add the content in the file
+			    ESC - Transfer from one mode to another
+			Colon - :wq!
+				:w (To save the data in file)
+
+Directory Commands - 
+
+Pwd - (present working directory) 
+Mkdir - To create directories
+Rmdir - To remove directories (To remove forefully - rm -rf)
+Cp - To copy the directories
+Mv - To move the directories
+Cd - Change directory - To change from one directory to another directories
+
+Linux directory structures - 
+
+/etc - 
+
+File Content 
+Cat - 
+Head - 
+Tail - 
+Grep - 
+Awk - 
+VI  - 
+
+Utility commands
+
+Find
+Curl
+Tar
+Unzip
+
+Admin Commands : 	
+
+Process management Commands : 
+
+Ps - Process Status - It will give you the PID, ps -u = PID, UID, CMD, TTY
+Ps -ef = UID, PID, PPID, TTY, CMD
+
+Kill - To Stop the process of th PID
+
+User Management Commands- 
+
+Groupadd  - 
+
+Useradd - 
+
+Usermod
+Visudo
+Sudo
+su
+
+Package Management : 
+
+Yum list installed - To find out the installed we use this command
+Yum list available - To findout available we use this command
+Yum list all  - Both the installed and available 
+
+To install - yum install nginx (Jenkins) (Java)
+To update - yum update nginx
+To remove - yum remove nginx
+To 
+Yum remove
+
+
+AWS : 
+
+
+Types of Cloud Services or cloud platform : AWS, Azure and GCP
+
+AWS - Amazon web services 
+
+Why the AWS is used for : 
+
+IT is designed to allow the application providers , ISV and vendors to quickly host the application. 
+(Or)
+
+IT is the highly demand and most comprehensive cloud platform, It offers the services of 100 - 200. So we use this AWS. Because it is very low cost. What we have to use we have to pay for it. 
+
+Why we use AWS : 
+To store the data
+To create app platform
+To create services
+For security
+Cost -effective ( what we use we have to pay for it) 
+Reliable for every services.
+
+Services IN AWS : 
+
+EC2, IAM,AMI, VPC, Load balancers, S3, EBS, SQS, SNS, EFS
+
+Types of instances in EC2 : 
+
+On - demand INstances, Spot INstances, REserved instances
+
+
+
+Important AWS Services (Aws Services)
+
+Compute
+Storage
+Database
+Networking
+Analytics
+Messaging
+Management Tools
+Migration
+Security
+
+Compute: 
+
+EC2 : Elastic compute Cloud or elastic cloud compute) : Ec2 is the virtual Machine 
+
+, Lambda : Allow you to run the code in the code. Big cost server of the aws
+
+, Beanstalk : It offers automated deployments and provisioning of the highly scalable projects
+
+, Light sail : Automatically deploy and manages the computer, storage and network capabilitues
+l, EKS (Elastic container service for kubernetes) : Without any installation in the cloud we can able to use the kuberenets
+
+Storage Services : 
+
+Amazon glacier : 
+Elastic Block Storage
+Storage Gateway
+
+Security Services : 
+IAM : 
+Cloud directory
+KMS : 
+Shield :  It is managed by DDOS ( Distributed Denial of service protection)
+Organizations : 
+Inspector
+Certificate Manager : 
+WAF 
+
+Database services : 
+
+RDS (Relational Database Service) - To setup, operate and scale a relational database
+
+DynamoDB : NoSQL Database service. It is a simple service which allow cost-effective storage and retrieval of data. 
+Elastic cache : It is web service which makes us to easy to deploy, operate and scaling in the cache in the cloud
+Redshift : 
+
+Data1
+
+Data2				Data transformation 
+
+Data3 
+
+Neptune : in graphical database service 
+
+Management Services : 
+
+Cloud formation : It is the way of turning infrastructure into the cloud. 
+
+Cloud trail: It is an easy method for the auditing aws services or resources. It helps you to log all changes
+
+Cloud watch : It is to watch the all aws environment services ec2, rds
+
+System manager : It allows you to identify issues and act on them. It allows you to group resources
+
+Cloud front : It is web service that speeds up the distribution of static and dynamic web content
+
+Autoscaling : 
+
+Config
+
+Managed services : It is a way lto offload general tasks to an expert in order to reduce cost, improve service quality. 
+Application Services : 
+
+SNS : 
+SQS : 
+Elastic Transcoder : 
+SWF
+
+Developer Tools : 
+
+Code commit
+Code deploy
+Code build
+Code pipeline
+Cloud9
+Codestar
+Cloudartifact
+
+Cat /etc/gshadow : X (To findout group passwd is set or not)
+
+Types of Instance Based on the Cost : 
+
+Types of Requests : 
+
+ON Demand Instance : It is for a particular Committments. Cost is high when compared to the Reserved Instance. (Pay-you-go) (For hourly or Moin)
+
+Spot Instance : When compared to the other Requests. Spot instance cost is low and we can use this.
+
+Reserved Instance : For the Reserved for a limit of atime or years we will use this. 
+
+
+EC2 Instance : 
+
+1st - Create the instance
+2nd - Create Volumes ( Instance and volume should be in same availability zone)
+3rd - We have to attach to the EC2 instance
+4th - We have to create the snapshot using volume 
+5th - findout the disk space using command - fdisk -l ( Or lsblk)
+6th - Create New partition space using commands - fdisk device name dev/xdvf)
+7th - we have to 
+7th - find out the partition space fdisk -l
+8th - format mkfs partition space
+9th - to create directory by using mkdir
+10th - mount partition name dir.name
+11th - mountpoint dir.name
+12th - to unmount it by using command (umount dir.) r umount partition
+13th - check whether it is unmount r not (mountpoint) r df -h
+
+
+
+
+14th - to detach volumes
+15th - retrieve the volumes from the snapshots (restore the volume from snapshot-actions)
+
+IN EC2 (Load Balancer and Auto scaling Configuration)
+
+1st - We have to create the instance in Ec2
+2nd - Setup the Load Balancers and connect to the instance
+3rd - Create the Target Groups and connect to the Load balancers and in Security groups add the inbound rules (ALL TCP)
+4th - Lauch configuration setup 
+5th - Create AMI
+6th - Autoscaling setup and add the desired capacity,  
+
+AMI (Amazon MAchine Image)
+
+
+We will create the AMI using the Instance
+If we want to terminate we can terminate the instance ( But the ami will not be deleted)
+We can launch the instance using AMI 
+
+7 steps of creating instance 
+
+Choose AMI
+Instance type
+Storage
+Key pair
+Tags
+Network Setting
+Configuration Storage  (Lauch Instance)
+
+IAM (Identity and Access Management)
+
+Types of Roles in IAM :
+ 
+Basic
+Predefined Roles
+Custom Roles
+
+What is AWS: 
+
+Types of Cloud services : AWS, AZURE and GCP
+
+AWS - Amazon web services
+
+It is the fastest growing servies with the 200+ featured services
+It includes the largest enterprise, startup enterprises and leading govt sectors
+
+What are the benefits and use of AWS : 
+
+Security
+Operational Expertise
+Cost saving
+Performance efficiency
+DEployment of global
+Faster Innovation
+Elasticity
+Relability
+Data loss prevention
+
+Regions in AWS - 22 or 23
+
+What are the Main concepts in AWS : 
+
+Compute
+Storage
+Database
+Security
+Analytics
+Networking
+MAnagement
+Developers tools
+Mobile
+IOT
+Enterprise Application
+
+What is cloud computing : 
+It is an on-demand delivery of IT services. We can pay as you go as per your usage of the data or else services. 
+
+Benefits of Cloud computing : 
+
+Cost saving
+Deploy your projects in min
+Elasticity
+Agility
+
+Types of Cloud computing : 
+
+IAAS - Infrastructure as a Service
+PAAS - Platform as a Service
+SAAS - Software as a service
+
+Compute : 
+
+EC2 : Amazon Elastic Cloud Compute
+
+It will deploy and develop the application faster and it eliminates the hardwire upfront. It is the scalable computing. 
+It scales the traffic up and down and optimize
+
+What are the 7 steps in EC2 : 
+
+Choose AMI
+Storage
+Key Name (Tags)
+Keypair
+Instance type
+Network Settings
+Configure 
+
+Features of EC2 : 
+
+Another name for instance is Virtual server, Virtual Computing Environment
+Preconfigured the templates for the AMI
+Secure Login INformation with the keypairs
+Storage the volume whatever you have hidden, terminated or stop all this storages are placed in the storage volume
+To get the know the exact services of the instances we use the tags (Tags are nothing but the Identify the Purpose of the server or what we using this server)
+REgions and Availablity Zones : 
+
+How wil WE setup the EC2 : 
+
+AMI : 
+
+What is AMI (AMazon MAchine Image) : 
+
+It is supported and maintained image. It will provides the information that is required to lauch the instance
+
+What is the AMI Includes : 
+
+Launch the permission that controls the AMI
+One or more Elastic block storage
+MApping
+
+Use of AMI : 
+
+AMI —----- Launch the instance (USing the Image) —------Copy the AMI
+
+
+AMI Types : 
+
+Regions
+OPS
+Architecture
+Storage 
+Lauch permission
+
+In Lauch permissions : 
+
+Explicit - To specific AWS Account to give the permission or access we will use this Explicit
+Implicit -  For An AMi we will give the permissions or ACcess
+Public  - to access the all users
+
+AMI Lifecycle : 
+
+Create an AMI
+Copy the AMI
+Restore and store the AMI USe S3
+Derigester the AMI
+Deprecate the AMI
+ReCover the AMI (HOw will you recover the AMI) - USing the Recycle bin
+
+Setup of AMI : 
+
+First we will lauch the Instance 
+USing the instance we will lauch AMI
+
+If we want to lauch the instance from AMI we will terminate the previous instance from where we have lauched the instance and we can lauch the New instance using this AMI
+
+AMI Catalog : 
+
+It is the supported and maintained image and whatever the information required to lauch the instance the AMI Catalog
+
+Can you able to multiple instances using AMI ? 
+
+WE can able to launch the multiple instance using single ami
+
+EBS(Elastic Block storage)
+
+EBS Snapshots : 
+
+Snapshot in AWS EC2: 
+
+Whatever the volume the created for that backup is snapshot. 
+
+Where the snapshot are stored in S3.
+
+Difference b/w the snapshot and AMI:
+
+AMI : IT is the backup of the entire server which includes or attached all the EBS Volume
+Snapshot : Certain volume of data backup a Snapshot
+
+Types of Snapshots : 
+2 fundamental - copy-on-write redirect-on-write
+
+Why the snapshots are used in aws
+
+What is load balancing: 
+
+It is the method of distributing the traffic equally
+
+Benefits of Load balancing
+
+Scalability
+Availability
+Performance
+Security
+
+Types of Load Balancer: 
+
+Application load balance
+Network load balancer
+Gateway load balancer
+Classic Load balancer
+
+What is load balancer
+
+“Traffic cop”
+
+Role of load balancer 
+
+It acts as a reverse proxy and it distributes the application or network traffic across multiple server.
+
+Certificate Manager - In load balancers - 2 certificate - DNS and Email Notification
+
+Request certificate Manager - Public - Domain Name - 
+
+Autoscaling : 
+
+It monitors the application and adjust the capacity and make it steady.
+Components of auto scaling groups 🙂
+
+Scaling policies, scaling activites and scaling processes
+
+Aws Auto scaling : Launch configurations and auto scaling groups.
+
+What are the advantages : 
+To make the app stable
+Better fault tolerance
+Cost management
+Configure it in the multiple availability zones
+
+In Auto scaling will create multiple instance
+Load balancer it will distributes the traffic
+
+Types of compute auto scaling: 
+
+2 types - Metric based autoscaling
+	Schedule based autoscaling
+
+What are the things we have to do before auto scaling
+
+Launch the instance
+We can also have to create the AMI
+Setup the lauch configurations
+We have to setup the autoscaling
+In autoscaling we have to select the instance we have created and we have to configure 
+
+VPC: (Virtual Private cloud)
+
+What is public cloud : In public cloud every one can able to access our servers
+
+Private cloud : Only a single person or single tenant can able to access it. 
+
+What are the advantages of using vpc than private cloud 👍
+
+Security
+Scalability
+Performance better
+
+Steps to create a VPC:
+
+Create VPC
+
+We have to create subnets - Public subnet and private subnets
+
+Public subnet - IPV4 CIDR - it shos from th vpc ip b/w 16 -32 or 16 -28
+Private subnet - IPV4 CIDR - it varies from 32/16 - 16/28
+
+Go To Route tables - 2 route tables - public and private
+
+Public route table is associated to the public subnets
+Private route table is associated to the private subnets
+
+We have edit Routes the Public route - Enable dns
+			Private - Edit HOst name
+
+Internet gateway - What ever the vpc we have created we have to attach the VPc
+                          
+ GO to Routes - Inbound rules and outbound rules 
+		We have to access the traffic - Give the Internetgateway 
+Public - we have to attach internet gateway
+Private - we have to attach the Nat Gateway
+
+NAT Gateway - We have the public subnet and in connectivity - public
+And we have to allocate elastic ip 
+Got to Route tables - All traffic 
+    			Ip address - nat gateway - Created
+
+We have to create Security groups - Create the security group and attach to the vpc
+
+Nect Launch the instance
+
+
+S3 - Simple storage Services
+
+It is released in 2006
+SQS - It is the firse services - 2004
+
+AWS s3 - 1st storage cloud service
+
+S3 _ It is used to store the data
+
+S3 - Global service
+
+Purpose of Versioning
+What is versionsing in s3
+Why we disable the public access when we creating the buckets
+
+Bucket name should be different
